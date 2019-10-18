@@ -11,7 +11,7 @@ A curated list of my conspicuous stars!
   To the extent possible under law,
   <a rel="dct:publisher"
      href="https://github.com/rZn">
-    <span property="dct:title">Andreas Rosander</span></a>
+    <span property="dct:title">rZn</span></a>
   has waived all copyright and related or neighboring rights to
   this work.
 This work is published from:
