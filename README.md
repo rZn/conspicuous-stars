@@ -14,6 +14,8 @@
   - [CMake](#cmake)
   - [CSS](#css)
   - [CoffeeScript](#coffeescript)
+  - [Crystal](#crystal)
+  - [Dart](#dart)
   - [Dockerfile](#dockerfile)
   - [Go](#go)
   - [HTML](#html)
@@ -24,8 +26,11 @@
   - [Kotlin](#kotlin)
   - [Lua](#lua)
   - [Makefile](#makefile)
+  - [Nim](#nim)
+  - [Nix](#nix)
   - [Others](#others)
   - [PHP](#php)
+  - [Pascal](#pascal)
   - [Perl](#perl)
   - [PowerShell](#powershell)
   - [Python](#python)
@@ -35,9 +40,9 @@
   - [Rust](#rust)
   - [Shell](#shell)
   - [Smali](#smali)
-  - [TSQL](#tsql)
   - [TypeScript](#typescript)
   - [Vala](#vala)
+  - [Vim script](#vim-script)
   - [VimL](#viml)
   - [Vue](#vue)
 
@@ -51,28 +56,39 @@
 
 ## Batchfile 
 
+- [xmrig_build](https://github.com/rZn/xmrig_build) - Auto setup scripts and pre-compiled xmr miner for moneroocoean.stream pool
+- [xmrig_setup](https://github.com/MoneroOcean/xmrig_setup) - Auto setup scripts and pre-compiled xmr miner for moneroocean.stream pool
 - [Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen) - Automated scripts to unpack/repack Android kernel/recovery images + ramdisks
 
 ## C 
 
+- [steamos-compositor-plus](https://github.com/gamer-os/steamos-compositor-plus) - A fork of the steamos compositor with some game compatibility fixes
+- [new-lg4ff](https://github.com/berarma/new-lg4ff) - Experimental Logitech force feedback module
+- [linux-firmware](https://github.com/thesofproject/linux-firmware) - Fork of Linux Firmware Repo - https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/
+- [ffbtools](https://github.com/berarma/ffbtools) - Set of tools for FFB testing and debugging on GNU/Linux
+- [moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) - GameStream client for PCs (Windows, Mac, Linux, and Steam Link)
+- [primo](https://github.com/selene-kovri/primo) - Protocol and software to pay for access using monero mining
+- [op6](https://github.com/engstk/op6) - blu_spark kernel for OnePlus 6/T
+- [cpuminer-multi](https://github.com/tpruvot/cpuminer-multi) - crypto cpuminer (linux + windows)
 - [obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Free and open source software for live streaming and screen recording
 - [OpenSteamController](https://github.com/greggersaurus/OpenSteamController) - Steam Controller reverse engineering and customization project.
 - [gamemode](https://github.com/FeralInteractive/gamemode) - Optimise Linux system performance on demand
+- [Riru](https://github.com/RikkaApps/Riru) - Inject zygote process by replace libmemtrack
 - [neutrino_kernel_oneplus_sdm845](https://github.com/0ctobot/neutrino_kernel_oneplus_sdm845) - OnePlus 6T kernel based on CAF 4.9 source with linux-stable merged in
 - [op6-kernel](https://github.com/EAS-Project/op6-kernel) - 
 - [mergerfs](https://github.com/trapexit/mergerfs) - a featureful union filesystem
 - [smenu](https://github.com/p-gen/smenu) - Terminal utility that reads words from standard input or from a file and creates an interactive selection window just below the cursor. The selected word(s) are sent to standard output for further processing.
-- [zfs](https://github.com/zfsonlinux/zfs) - ZFS on Linux - the official OpenZFS implementation for Linux.
+- [zfs](https://github.com/openzfs/zfs) - OpenZFS on Linux and FreeBSD
 - [duc](https://github.com/zevv/duc) - Dude, where are my bytes: Duc, a library and suite of tools for inspecting disk usage
 - [oneplus3](https://github.com/msfjarvis/oneplus3) - GPL source code to Caesium kernel for OnePlus 3/3T
 - [moonlight-android](https://github.com/moonlight-stream/moonlight-android) - GameStream client for Android
-- [JamesDSPManager](https://github.com/james34602/JamesDSPManager) - Audio DSP effects build on Android system framework layer. This is NOT a MOD literally. This is a repository contains a pack of high quality DSP algorithms specialized for audio processing.
+- [JamesDSPManager](https://github.com/james34602/JamesDSPManager) - Audio DSP effects build on Android system framework layer. This is a repository contains a pack of high quality DSP algorithms specialized for audio processing.
 - [android_kernel_oneplus_msm8996](https://github.com/OnePlusOSS/android_kernel_oneplus_msm8996) - 
 - [android_device_oneplus_oneplus3](https://github.com/BitOBSessiOn/android_device_oneplus_oneplus3) - 
 - [android_device_oneplus_oneplus3t](https://github.com/BitOBSessiOn/android_device_oneplus_oneplus3t) - TWRP device tree for OnePlus 3T (oneplus3t)
 - [nffm](https://github.com/mariostg/nffm) - Nothing Fancy File Manager
 - [Team-Win-Recovery-Project](https://github.com/nkk71/Team-Win-Recovery-Project) - Core of TWRP modified for MultiROM
-- [netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://my-netdata.io/
+- [netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://www.netdata.cloud
 - [android_kernel_moto_shamu](https://github.com/DirtyUnicorns/android_kernel_moto_shamu) - 
 - [shamu](https://github.com/flar2/shamu) - ElementalX for Nexus 6
 - [zen-kernel](https://github.com/zen-kernel/zen-kernel) - Zen Patched Kernel Sources
@@ -82,6 +98,14 @@
 
 ## C# # 
 
+- [SteamToTwitter](https://github.com/SteamDatabase/SteamToTwitter) - 🕊 Tweets announcements from various Steam groups
+- [RyzenAdj](https://github.com/FlyGoat/RyzenAdj) - Adjust power management settings for Mobile Raven Ridge Ryzen Processors
+- [GOG-Galaxy-2.0-Shortcut-Creator](https://github.com/OlivierGagnon/GOG-Galaxy-2.0-Shortcut-Creator) - GOG Galaxy 2.0 Shortcut Creator
+- [WalletWasabi](https://github.com/zkSNACKs/WalletWasabi) - Open-source, non-custodial, privacy focused Bitcoin wallet for Windows, Linux, and Mac. Built-in Tor, CoinJoin, and coin control features.
+- [GoogleDriveLoader](https://github.com/LegendaryB/GoogleDriveLoader) - Simple google drive downloader which is able to also download from Team Drives
+- [Port-Able-Suite](https://github.com/Port-Able/Port-Able-Suite) - :globe_with_meridians: Manager for portable applications
+- [FreeMove](https://github.com/imDema/FreeMove) - Move directories without breaking shortcuts or installations
+- [MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner) - Monitors crypto mining pools in real-time in order to find the most profitable for your machine. Controls any miner that is available via command line.
 - [VSCView](https://github.com/Nielk1/VSCView) - OSD for Steam Controller
 - [UWPHook](https://github.com/BrianLima/UWPHook) - 🔗 Add your Windows Store or UWP games to Steam
 - [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) - C# application with primary purpose of idling Steam cards from multiple accounts simultaneously.
@@ -99,26 +123,48 @@
 
 ## C++ 
 
+- [fastgame](https://github.com/wwmm/fastgame) - Optimize system performance for games
+- [MangoHud](https://github.com/flightlessmango/MangoHud) - A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. Discord: https://discordapp.com/invite/Gj5YmBb
+- [vokoscreenNG](https://github.com/vkohaupt/vokoscreenNG) - VokscreenNG is a user friendly Open Source screencaster for Linux and Windows.
+- [android_device_oneplus_fajita](https://github.com/crdroidandroid/android_device_oneplus_fajita) - 
+- [proton-ge-custom](https://github.com/przmkg/proton-ge-custom) - Compatibility tool for Steam Play based on Wine and additional components
+- [gamescope](https://github.com/Plagman/gamescope) - SteamOS session compositing window manager
+- [proton-ge-custom](https://github.com/GloriousEggroll/proton-ge-custom) - Compatibility tool for Steam Play based on Wine and additional components
+- [nix](https://github.com/NixOS/nix) - Nix, the purely functional package manager
+- [nano-node](https://github.com/nanocurrency/nano-node) - Nano is a cryptocurrency
+- [transcendence](https://github.com/phoenixkonsole/transcendence) - Home of the transcendence blockchain and tools
+- [CryptSync](https://github.com/stefankueng/CryptSync) - CryptSync is a small utility that synchronizes two folders while encrypting the contents in one folder. That means one of the two folders has all files unencrypted (the files you work with) and the other folder has all the files encrypted.
+- [loki-storage-server](https://github.com/loki-project/loki-storage-server) - Storage server for Loki Service Nodes
+- [loki-network-control-panel](https://github.com/loki-project/loki-network-control-panel) - a control panel for managing Lokinet
+- [loki-network](https://github.com/loki-project/loki-network) - Lokinet is an anonymous, decentralized and IP based overlay network for the internet.
+- [loki-core](https://github.com/loki-project/loki-core) - Loki core repository, containing lokid and loki cli wallets
+- [ODIN](https://github.com/odinblockchain/ODIN) - Official ODIN-Qt Wallet -- See releases for downloads
+- [Krypto-trading-bot](https://github.com/ctubio/Krypto-trading-bot) - Self-hosted crypto trading bot (automated high frequency market making) in node.js, angular, typescript and c++
+- [bitmonero](https://github.com/moneromooo-monero/bitmonero) - Monero: the secure, private, untraceable cryptocurrency
+- [xmrig-proxy](https://github.com/xmrig/xmrig-proxy) - Monero (XMR) Stratum protocol proxy
+- [xmrig](https://github.com/MoneroOcean/xmrig) - Monero (rx/0, rx/wow, rx/loki, defyx, rx/arq, rx/sfx, rx/keva, cn/0, cn/1, cn/2, cn/r, cn/fast, cn/half, cn/xao, cn/rto, cn/rwz, cn/zls, cn/double, cn/gpu, cn-lite/0, cn-lite/1, cn-heavy/0, cn-heavy/tube, cn-heavy/xhv, cn-pico, cn-pico/tlo, argon2/chukwa, argon2/wrkz, astrobwt) CPU/GPU miner
+- [arqma](https://github.com/arqma/arqma) - ArQmA: secure, fast and anonymous Currency of the Future  // Dev-Pool: https://pool.arqma.com
+- [deeponion](https://github.com/deeponion/deeponion) - Official Source Repo for DeepOnion - Anonymous Cryptocurrency on TOR
+- [azure-cloud-mining-script](https://github.com/azurecloudminingscript/azure-cloud-mining-script) - One-stop-solution for mining in the azure-cloud using fireice-uk's and psychocrypt's xmr-stak
 - [ninjarig](https://github.com/turtlecoin/ninjarig) - Argon2 CPU & GPU miner for TurtleCoin®
 - [monero-update](https://github.com/moneromooo-monero/monero-update) - A secure updater/installer for Monero
-- [xmrigCC](https://github.com/Bendr0id/xmrigCC) - Highly optimized Cryptonight / -lite / -heavy CPU miner with Command&Control (CC) Server and Monitoring
+- [xmrigCC](https://github.com/Bendr0id/xmrigCC) - Highly optimized Cryptonight / RandomX / Argon2 CPU miner with Command&Control (CC) Server and Monitoring
 - [monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
 - [wownero](https://github.com/wownero/wownero) - Many coins, such privacy. Wow!
 - [xmr-stak](https://github.com/fireice-uk/xmr-stak) - Free Monero RandomX Miner and unified CryptoNight miner
 - [qsshfs](https://github.com/Skycoder42/qsshfs) - A gui wrapper around sshfs
 - [sidewinderd](https://github.com/evan3334/sidewinderd) - Linux support for Microsoft SideWinder X4 / X6 and Logitech G105 / G710+.
 - [sidewinderd](https://github.com/phiwui/sidewinderd) - Linux support for Microsoft SideWinder X4 / X6 and Logitech G105 / G710+.
-- [sidewinderd](https://github.com/tolga9009/sidewinderd) - Linux support for Microsoft SideWinder X4 / X6 and Logitech G105 / G710+.
-- [dxvk](https://github.com/doitsujin/dxvk) - Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
+- [sidewinderd](https://github.com/tolga9009/sidewinderd) - Linux support for Microsoft SideWinder X4 / X6 and Logitech G103 / G105 / G710+.
+- [dxvk](https://github.com/doitsujin/dxvk) - Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 - [RcloneBrowser](https://github.com/kapitainsky/RcloneBrowser) - Simple cross platform GUI for rclone. Supports macOS, GNU/Linux, BSD family and Windows.
 - [Steam-files-and-notes](https://github.com/darealshinji/Steam-files-and-notes) - A collection of notes, configurations and other files for my Steam games
 - [CopyQ](https://github.com/hluk/CopyQ) - Clipboard manager with advanced features
 - [shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5) - A cross-platform shadowsocks GUI client
 - [device_oneplus_fajita](https://github.com/malinathani/device_oneplus_fajita) - 
-- [Riru](https://github.com/RikkaApps/Riru) - Inject zygote process by replace libmemtrack
 - [aria2](https://github.com/aria2/aria2) - aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.
-- [strawberry](https://github.com/jonaski/strawberry) - :strawberry: Strawberry Music Player
-- [Magisk](https://github.com/topjohnwu/Magisk) - A Magic Mask to Alter Android System Systemless-ly
+- [strawberry](https://github.com/strawberrymusicplayer/strawberry) - :strawberry: Strawberry Music Player
+- [Magisk](https://github.com/topjohnwu/Magisk) - The Magic Mask for Android
 - [Stacer](https://github.com/oguzhaninan/Stacer) - Linux System Optimizer and Monitoring - https://oguzhaninan.github.io/Stacer-Web
 - [Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
 - [RcloneBrowser](https://github.com/mmozeiko/RcloneBrowser) - Simple cross platform GUI for rclone
@@ -138,6 +184,10 @@
 
 ## CSS 
 
+- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more
+- [knowledge-mind-mapping](https://github.com/wahyd4/knowledge-mind-mapping) - The IT things I've learned
+- [wg-dashboard](https://github.com/wg-dashboard/wg-dashboard) - an easy-to-use dashboard for wireguard vpn
+- [nafanz.github.io](https://github.com/nafanz/nafanz.github.io) - List cloud storage & file sharing
 - [Sweet](https://github.com/EliverLara/Sweet) - Light and dark colorful Gtk3.20+ theme
 - [dotfiles](https://github.com/galihx11/dotfiles) - 
 - [eOSSteamSkin](https://github.com/tkashkin/eOSSteamSkin) - Steam skin which tries to look like a native app for elementary OS and macOS
@@ -153,10 +203,24 @@
 
 ## CoffeeScript 
 
+- [cozy-monitor](https://github.com/cozy/cozy-monitor) - A tool to manage your Cozy Platform from the command line.
 - [mediatidy](https://github.com/tkdan235/mediatidy) - Command line interface to cleanup your media library
+
+## Crystal 
+
+- [invidious](https://github.com/omarroth/invidious) - Invidious is an alternative front-end to YouTube
+
+## Dart 
+
+- [MusicPiped](https://github.com/deep-gaurav/MusicPiped) - A Materialistic Music player that streams music
 
 ## Dockerfile 
 
+- [cozy-docker](https://github.com/moritzheiber/cozy-docker) - Cozy cloud v3 as a Docker image
+- [dockerfiles](https://github.com/tianon/dockerfiles) - A semi-random collection of odds and ends.
+- [bender-koken](https://github.com/benderstwin/bender-koken) - koken
+- [python](https://github.com/benderstwin/python) - just a python container
+- [docker-h5ai](https://github.com/pad92/docker-h5ai) - Unofficial docker image of modern HTTP web server index
 - [docker-baseimage-guacgui](https://github.com/linuxserver/docker-baseimage-guacgui) - 
 - [gozy-docker](https://github.com/cozy/gozy-docker) - Sample configuration file to run Gozy inside a Docker container
 - [docker-diskover](https://github.com/linuxserver/docker-diskover) - A Docker container for the Diskover space mapping application
@@ -179,9 +243,19 @@
 
 ## Go 
 
-- [gonic](https://github.com/sentriz/gonic) - subsonic server API implementation
+- [backup-and-sync](https://github.com/th3noname/backup-and-sync) - A simple wrapper application around restic and rclone
+- [restic](https://github.com/restic/restic) - Fast, secure, efficient backup program
+- [cozy-apps-registry](https://github.com/aeris/cozy-apps-registry) - 
+- [monero-stratum](https://github.com/sammy007/monero-stratum) - Solo mining stratum for Monero & AEON with built-in Web-UI
+- [libpod](https://github.com/containers/libpod) - libpod is a library used to create container pods. Home of Podman.
+- [cozy-stack](https://github.com/cozy/cozy-stack) - Simple, Versatile, Yours
+- [loginsrv](https://github.com/tarent/loginsrv) - JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..
+- [cointop](https://github.com/miguelmota/cointop) - The fastest and most interactive terminal based UI application for tracking cryptocurrencies
+- [ghosts](https://github.com/StevenBlack/ghosts) - A CLI written in Go to work with hosts files.
+- [BLOC-GUI-Miner](https://github.com/furiousteam/BLOC-GUI-Miner) - An easy to use Graphical User Interface cryptocurrency miner for crypto night algorithm coins available for Windows, macOS and Linux
+- [gonic](https://github.com/sentriz/gonic) - music streaming server / subsonic server API implementation
 - [sound](https://github.com/hednowley/sound) - A snappy Subsonic server written in Go.
-- [wireguard-ui](https://github.com/EmbarkStudios/wireguard-ui) - WireGuard Web UI for self-serve client configurations, with optional auth.
+- [wg-ui](https://github.com/EmbarkStudios/wg-ui) - WireGuard Web UI for self-serve client configurations, with optional auth.
 - [steamgrid](https://github.com/boppreh/steamgrid) - Downloads images to fill your Steam grid view
 - [piknik](https://github.com/jedisct1/piknik) - Copy/paste anything over the network.
 - [zsys](https://github.com/ubuntu/zsys) - zsys daemon and client for zfs systems
@@ -190,17 +264,21 @@
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker
 - [diun](https://github.com/crazy-max/diun) - 🔔 Receive notifications when an image is updated on a Docker registry
 - [fzf](https://github.com/junegunn/fzf) - :cherry_blossom: A command-line fuzzy finder
+- [tmux-themepack](https://github.com/jimeh/tmux-themepack) - A pack of various Tmux themes.
 - [traefik-forward-auth](https://github.com/thomseddon/traefik-forward-auth) - Minimal forward authentication service that provides Google oauth based login and authentication for the traefik reverse proxy
 - [netbackup](https://github.com/marcopaganini/netbackup) - A frontend for various backup programs (rsync, rdiff-backup, rclone) that simplifies local and remote backups.
 - [traefik](https://github.com/containous/traefik) - The Cloud Native Edge Router
 - [rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, Amazon Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage, Yandex Files
-- [plexdrive](https://github.com/dweidenfeld/plexdrive) - Plexdrive mounts your Google Drive FUSE filesystem (optimized for media playback)
+- [plexdrive](https://github.com/plexdrive/plexdrive) - Plexdrive mounts your Google Drive FUSE filesystem (optimized for media playback)
 - [syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
 
 ## HTML 
 
+- [knowledge](https://github.com/RichardLitt/knowledge) - 💡 document everything
+- [excavator](https://github.com/nicehash/excavator) - NiceHash's proprietary low-level CUDA miner
+- [moneriote](https://github.com/Gingeropolous/moneriote) - Scripts to maintain a database of monero nodes with their RPC ports open
+- [cryptonote-proxy](https://github.com/herominers/cryptonote-proxy) - HeroMiners Proxy Mining Control
 - [Warez](https://github.com/CHEF-KOCH/Warez) - All your base are belong to us!
-- [nafanz.github.io](https://github.com/nafanz/nafanz.github.io) - List cloud storage, file sharing, torrent tracker, seedbox & usenet
 - [awesome-all](https://github.com/bradoyler/awesome-all) - A curated list of awesome lists of awesome frameworks, libraries and software
 - [HBBatchBeast](https://github.com/HaveAGitGat/HBBatchBeast) - A free GUI application for HandBrake and FFmpeg/FFprobe with an emphasis on batch conversion (including recursive folder scans and folder watching) -Windows, macOS, Linux & Docker
 - [awesome-piracy](https://github.com/Igglybuff/awesome-piracy) - A curated list of awesome warez and piracy links
@@ -214,16 +292,26 @@
 
 ## Java 
 
+- [snowflake](https://github.com/subhra74/snowflake) - Graphical SFTP client and terminal emulator with helpful utilities
+- [bisq](https://github.com/bisq-network/bisq) - A decentralized bitcoin exchange network
+- [Database-Backup-Restore](https://github.com/prof18/Database-Backup-Restore) - A simple Android app that performs local and cloud backup/restore of a database
+- [dont-kill-my-app](https://github.com/urbandroid-team/dont-kill-my-app) - Android vendors, don't kill my app!
+- [zom-android-matrix](https://github.com/zom/zom-android-matrix) - new Zom 2 app built on Matrix protocol / Keanu project
+- [ApkMirror](https://github.com/DerTyp7214/ApkMirror) - 
+- [loki-android-wallet](https://github.com/loki-project/loki-android-wallet) - The Loki Android Wallet
+- [user.js-updater](https://github.com/v1nc/user.js-updater) - update your user.js on android without trouble
+- [lynket-browser](https://github.com/arunkumar9t2/lynket-browser) - 🌐 A better browser for Android using the Custom Tab protocol. Previously called Chromer.
+- [session-android](https://github.com/loki-project/session-android) - A private messenger for Android.
+- [AppUpdater](https://github.com/MatteCarra/AppUpdater) - A library that checks for your apps' updates on Google Play, GitHub, Amazon, F-Droid or your own server. API 9+ required.
 - [upx-android-miner](https://github.com/uPlexa/upx-android-miner) - An Android Miner for the UPX Network
 - [m2g_android_miner](https://github.com/Mine2Gether/m2g_android_miner) - A simple cryptocurrency miner for android devices.
 - [AmazfitPaceCalendarWidget](https://github.com/GreatApo/AmazfitPaceCalendarWidget) - Calendar Widget for the Amazfit Pace / Stratos
-- [AmazMod](https://github.com/AmazMod/AmazMod) - Phone/Watch app that provides a new notification system along with other features for Amazfit Pace/Stratos/Verge watches
 - [Aegis](https://github.com/beemdevelopment/Aegis) - A free, secure and open source app for Android to manage your 2-step verification tokens.
 - [FastHub](https://github.com/k0shk0sh/FastHub) - FastHub the ultimate GitHub client for Android.
 - [FastHub-Libre](https://github.com/thermatk/FastHub-Libre) - Libre fork of FastHub, the ultimate GitHub client for Android.
 - [dockerboard-android](https://github.com/mlabouardy/dockerboard-android) - Android app for the Docker Remote API
 - [PGPClipper](https://github.com/Mnkai/PGPClipper) - PGPClipper for Android repository
-- [SmartPack-Kernel-Manager](https://github.com/SmartPack/SmartPack-Kernel-Manager) - Source code of SmartPack-Kernel-Manager which is a modified version of KernelAdiutor by Grarak
+- [SmartPack-Kernel-Manager](https://github.com/SmartPack/SmartPack-Kernel-Manager) - Source code of SmartPack-Kernel-Manager, the official successor of Kernel Adiutor
 - [SmartFlasher](https://github.com/SmartPack/SmartFlasher) - Source code of Smart Flasher, a simple app aimed to make flashing recovery zips much easier.
 - [download-navi](https://github.com/TachibanaGeneralLaboratories/download-navi) - Free and  Open Source software download manager
 - [Tok-Android](https://github.com/InsightIM/Tok-Android) - Tox client for Android
@@ -243,12 +331,11 @@
 - [DistroHopper](https://github.com/RobinJ1995/DistroHopper) - The Linux desktop on your Android device.
 - [psiandroid](https://github.com/rk4an/psiandroid) - A little tool allowing you to monitor your system on your android based phone
 - [rcloneExplorer](https://github.com/kaczmarkiewiczp/rcloneExplorer) - rclone explorer for Android
-- [Audinaut](https://github.com/nvllsvm/Audinaut) - An Airsonic client for Android
+- [Audinaut](https://github.com/nvllsvm/Audinaut) - A Subsonic client for Android
 - [Tautulli-Remote](https://github.com/Tautulli/Tautulli-Remote) - Android client for Tautulli
 - [haven](https://github.com/guardianproject/haven) - Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy, through an Android app and on-device sensors
 - [Paper-Launcher](https://github.com/lobellomatteo/Paper-Launcher) - 
 - [airsonic](https://github.com/airsonic/airsonic) - :satellite: :cloud: :notes:Airsonic, a Free and Open Source community driven media server (fork of Subsonic and Libresonic)
-- [libresonic](https://github.com/Libresonic/libresonic) - Media streaming software
 - [TvAppRepo](https://github.com/ITVlab/TvAppRepo) - An app repository of Android TV apps
 - [spectrum](https://github.com/frap129/spectrum) - A simple, profile based kernel manager.
 - [TeamBlackOut](https://github.com/Train88/TeamBlackOut) - 
@@ -266,7 +353,7 @@
 - [open-keychain](https://github.com/open-keychain/open-keychain) - OpenKeychain is an OpenPGP implementation for Android.
 - [LayersManager](https://github.com/BitSyko/LayersManager) - The all new layers Manager
 - [Cornowser](https://github.com/xdevs23/Cornowser) - The modern web browser for Android
-- [Popeens-Subsonic](https://github.com/popeen/Popeens-Subsonic) - DEPRECATED - Please note that this server is deprecated and will be replaced by https://github.com/popeen/Booksonic-Bridge. I will not be doing any updates to this server unless it is critical.
+- [Popeens-Subsonic](https://github.com/popeen/Popeens-Subsonic) - DEPRECATED - Please note that this server is deprecated and will be replaced by https://github.com/popeen/Booksonic-Bridge. I will probably not be doing any updates to this server unless it is critical.
 - [Dividers](https://github.com/Karumi/Dividers) - Dividers is a simple Android library to create easy separators for your RecyclerViews
 - [transdroid](https://github.com/erickok/transdroid) - Manage your torrents from your Android device
 - [FreeStyleLibre-NFC-Reader](https://github.com/vicktor/FreeStyleLibre-NFC-Reader) - Read data from a FreeStyleLibre with Android
@@ -283,9 +370,51 @@
 
 ## JavaScript 
 
+- [negibox](https://github.com/hugetiny/negibox) - All in one downloader 全能下载器
+- [download-with](https://github.com/belaviyo/download-with) - A set of extensions to ease the integration with an external download manager
+- [native-client](https://github.com/belaviyo/native-client) - This is a node wrapper for Native Messaging for Windows, Linux, and Mac OS.
+- [CloudRIG](https://github.com/cloudrig/CloudRIG) - Stream your applications with Parsec and AWS on the cheap.
+- [zil-pay](https://github.com/zilpay/zil-pay) - The ZilPay browser extension enables browsing Zilliqa blockchain enabled websites.
+- [drive](https://github.com/dashevo/drive) - Decentralized application storage on the Dash network
+- [make-space](https://github.com/JonnyBurger/make-space) - 💾 [WIP] Free up space from the command line
+- [octo-drive](https://github.com/linuxenko/octo-drive) - Turn your GitHub repository into encrypted filesystem (=
+- [ODrive](https://github.com/liberodark/ODrive) - Google Drive GUI for Windows / Mac / Linux
+- [gdrive-copy](https://github.com/ericyd/gdrive-copy) - Web app to copy a Google Drive folder
+- [rutorrent-thirdparty-plugins](https://github.com/benderstwin/rutorrent-thirdparty-plugins) - Plugins for ruTorrent web client, filemanager, fileshare, fileupload, mediastream
+- [cozy-konnector-google](https://github.com/konnectors/cozy-konnector-google) - 
+- [cozy-settings](https://github.com/cozy/cozy-settings) - Settings app for Cozy Cloud
+- [cozy-banks](https://github.com/cozy/cozy-banks) - A Banks Aggregator on Cozy
+- [cozy-dispers-app](https://github.com/cozy-labs/cozy-dispers-app) - 
+- [ACH](https://github.com/cozy/ACH) - Import/Export data from your Cozy
+- [Airlock](https://github.com/slothbag/Airlock) - 
+- [cozy-desktop](https://github.com/cozy-labs/cozy-desktop) - File Synchronisation for Cozy on Desktop and Laptop
+- [loki-launcher](https://github.com/loki-project/loki-launcher) - Manages the Loki Storage Server, Loki Daemon and Lokinet simultaneously
+- [loki-electron-gui-wallet](https://github.com/loki-project/loki-electron-gui-wallet) - Loki electron GUI wallet
+- [session-desktop](https://github.com/loki-project/session-desktop) - Session Desktop - Onion routing based messenger
+- [WebDecrypt](https://github.com/andOTP/WebDecrypt) - Decryption for password-protected backups using JavaScript
+- [decompress](https://github.com/kevva/decompress) - Extracting archives made easy
+- [xdg-trashdir](https://github.com/kevva/xdg-trashdir) - Get the correct trash path on Linux
+- [gulp-decompress](https://github.com/kevva/gulp-decompress) - Extract TAR, TAR.BZ2, TAR.GZ and ZIP archives
+- [download](https://github.com/kevva/download) - Download and extract files
+- [github-repositories](https://github.com/kevva/github-repositories) - Get all GitHub repos from a user or an organization
+- [github-repositories](https://github.com/RichardLitt/github-repositories) - Get all GitHub repos from a user
+- [is-github-user-or-org](https://github.com/RichardLitt/is-github-user-or-org) - Determines whether a GitHub profile is a User or an Organization
+- [standard-readme-preset](https://github.com/RichardLitt/standard-readme-preset) - remark preset to configure remark-lint with settings that enforce standard-readme.
+- [watch-gh-repos](https://github.com/RichardLitt/watch-gh-repos) - Watch, unwatch, or ignore GitHub repositories
+- [ships-log](https://github.com/RichardLitt/ships-log) - Open up a log file for today in a project folder
+- [standard-readme-linter-regex](https://github.com/RichardLitt/standard-readme-linter-regex) - A dumb regex linter for standard-readme
+- [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme) - Scaffold out a Standard Readme
+- [h5ai](https://github.com/lrsjng/h5ai) - HTTP web server index for Apache httpd, lighttpd and nginx.
+- [spck-module](https://github.com/spckio/spck-module) - Module loading library for https://spck.io
+- [spck-embed](https://github.com/spckio/spck-embed) - Full-fledged embeddable code editor designed for the web.
+- [spck-ui](https://github.com/spckio/spck-ui) - Simplicity in a pure JS/JSON components library.
+- [coin-hive](https://github.com/cazala/coin-hive) - CoinHive cryptocurrency miner for node.js
+- [miner-monitor](https://github.com/felixbrucker/miner-monitor) - Miner, balance, wallet and pool monitoring software
+- [moneroocean-gui](https://github.com/MoneroOcean/moneroocean-gui) - Lightweight and fast UI for nodejs-pool based project, designed for moneroocean.stream
+- [xmr-node-proxy](https://github.com/MoneroOcean/xmr-node-proxy) - Cryptonote/Forknote/Cryptonight/Light/Heavy coin proxy for nodejs-pool
+- [meta-miner](https://github.com/MoneroOcean/meta-miner) - Allows to add algo switching support to *any* stratum miner. Zero fees.
 - [cockpit-zfs-manager](https://github.com/optimans/cockpit-zfs-manager) - Cockpit ZFS Manager is an interactive ZFS on Linux admin package for Cockpit.
 - [awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) - 👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
-- [beetsonic](https://github.com/gryphonmyers/beetsonic) - Node.js implementation of Subsonic API using Beets DB as music database.
 - [dash-to-panel](https://github.com/home-sweet-gnome/dash-to-panel) - An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
 - [particles.js](https://github.com/VincentGarreau/particles.js) - A lightweight JavaScript library for creating particles
 - [rclone-webui-react](https://github.com/rclone/rclone-webui-react) - A full fledged UI for the rclone cloud sync tool
@@ -302,16 +431,13 @@
 - [popular-movies](https://github.com/sjlu/popular-movies) - Tries to create a list of popular movies based on a series of heuristics
 - [apps](https://github.com/HaveAGitGat/apps) - A collection of apps built on Electron
 - [composerize](https://github.com/magicmark/composerize) - 🏃→🎼  docker run asdlksjfksdf &gt; docker-composerize up
-- [nativefier](https://github.com/jiahaog/nativefier) - Make any web page a desktop application
 - [beauties](https://github.com/blackmatch/beauties) - A website building with dva + react + antd.
-- [pornhub-downloader](https://github.com/blackmatch/pornhub-downloader) - Download videos from pornhub.
 - [cloudflare-cli](https://github.com/danielpigott/cloudflare-cli) - CLI for interacting with Cloudflare
 - [end_to_end_encryption](https://github.com/nextcloud/end_to_end_encryption) - :closed_lock_with_key: Server API to support End-to-End Encryption
 - [docker-compose-ui](https://github.com/francescou/docker-compose-ui) - web interface for Docker Compose
 - [Plextras.js](https://github.com/andrewiankidd/Plextras.js) - Minor customizations to plex/web plugin
-- [logarr](https://github.com/Monitorr/logarr) - "Logarr" is a self-hosted, PHP-based, single-page log consolidation tool which formats and displays log files for easy analysis.
+- [logarr](https://github.com/Monitorr/logarr) - “Logarr” is a self-hosted PHP web app that consolidates, formats, and displays log and text files for easy analysis and monitoring.
 - [flood](https://github.com/Flood-UI/flood) - A web UI for rTorrent with a Node.js backend and React frontend.
-- [tagspaces](https://github.com/tagspaces/tagspaces) - TagSpaces is an offline, open source, document manager with tagging support
 - [koozic](https://github.com/DocMarty84/koozic) - Self-hosted media streaming server
 - [QB](https://github.com/QuickBox/QB) - QuickBox is much more than a ‘seedbox installer script’, it is a simplistic approach to achieving easy seedbox and services management from a beautifully designed dashboard. Allowing users the ability to interact with their seedbox and server on a professional grade level.
 - [UpsBoard](https://github.com/lienma/UpsBoard) - Usenet + plex + Stats Board, allows you to monitor your usenet services (SABnzbd+, Sick Beard, & CouchPotato), Plex, & your system (CPU Usage, Memory Usage, Bandwidth Usage, & Disk Space Usage)
@@ -328,10 +454,18 @@
 
 ## Jupyter Notebook 
 
+- [Torrent-To-Google-Drive-Downloader-v2](https://github.com/r12habh/Torrent-To-Google-Drive-Downloader-v2) - Simple notebook to stream torrent files to Google Drive using Google Colab and python3.
 - [awesome-python-applications](https://github.com/mahmoud/awesome-python-applications) - 💿 Free software that works great, and also happens to be open-source Python.
 
 ## Kotlin 
 
+- [unstoppable-wallet-android](https://github.com/horizontalsystems/unstoppable-wallet-android) - A secure and decentralized Bitcoin and other cryptocurrency wallet for Android phones. Supports Bitcoin, Ethereum, EOS, Binance Chain, Bitcoin Cash, DASH, ...
+- [nock-nock](https://github.com/afollestad/nock-nock) - 🚪 Monitor and validate your websites to maintain maximum uptime.
+- [Rboard-Theme-Manager](https://github.com/DerTyp7214/Rboard-Theme-Manager) - 
+- [KryptoPrefs](https://github.com/rumboalla/KryptoPrefs) - KryptoPrefs is an open source Kotlin library for handling encrypted SharedPreferences in Android.
+- [coolrs](https://github.com/rumboalla/coolrs) - CoolRs is a collection of Android Renderscript effects.
+- [apkupdater](https://github.com/rumboalla/apkupdater) - APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.
+- [AccA](https://github.com/MatteCarra/AccA) - Acc app allows to edit acc config file and add a tile to start and stop acc deamon
 - [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator
 - [OPFPControl](https://github.com/zacharee/OPFPControl) - 
 - [Pie-Theme](https://github.com/Sai-P/Pie-Theme) - Repository for Sai's Pie Theme! You can find all of the resources of my theme over here
@@ -344,7 +478,9 @@
 
 ## Makefile 
 
-- [infra](https://github.com/IronicBadger/infra) - 
+- [iso](https://github.com/pop-os/iso) - Pop!_OS ISO production
+- [cozy-docker](https://github.com/aeris/cozy-docker) - Docker compose to run a Cozy stack
+- [debian-cozy-coclyco](https://github.com/cozy/debian-cozy-coclyco) - Coclyco Debian packaging
 - [Repository](https://github.com/KXStudio/Repository) - External, Non-PPA KXStudio Repository
 - [speed-ricer](https://github.com/regolith-linux/speed-ricer) - Vanilla packages for ricing.
 - [MIXplorer](https://github.com/SMARTSKA97/MIXplorer) - 
@@ -352,8 +488,38 @@
 - [android_build](https://github.com/OnePlusOSS/android_build) - 
 - [android_vendor_lge](https://github.com/MrTumbles/android_vendor_lge) - 
 
+## Nim 
+
+- [nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end
+
+## Nix 
+
+- [nixpkgs](https://github.com/NixOS/nixpkgs) - Nix Packages collection
+- [nix-on-droid](https://github.com/t184256/nix-on-droid) - Nix-enabled environment for your Android device.
+
 ## Others 
 
+- [Packs](https://github.com/GboardThemes/Packs) - 
+- [crdroid_features](https://github.com/crdroidandroid/crdroid_features) - our main features (why you love us)
+- [android](https://github.com/crdroidandroid/android) - Build crDroid and some general information
+- [loki-electron-gui-wallet](https://github.com/Ioki-projects/loki-electron-gui-wallet) - Forked from ryo-currency/ryo-wallet-libre Loki electron GUI wallet
+- [nixos-weekly](https://github.com/t184256/nixos-weekly) - NixOS Weekly Newsletter
+- [gdriveplayer](https://github.com/golakar/gdriveplayer) - Private stream script for videos from Google Drive by encrypted player
+- [awesome-inspiration](https://github.com/swapagarwal/awesome-inspiration) - :fire: A curated list of content worth sharing to help you get inspired! :zap:
+- [landscape](https://github.com/cncf/landscape) - 🌄The Cloud Native Interactive Landscape filters and sorts hundreds of projects and products, and shows details including GitHub stars, funding or market cap, first and last commits, contributor counts, headquarters location, and recent tweets.
+- [bender-rancher-repo](https://github.com/benderstwin/bender-rancher-repo) - 
+- [docker-templates](https://github.com/benderstwin/docker-templates) - template repo
+- [cozy](https://github.com/cozy/cozy) - Simple, Versatile, Yours
+- [alternative-internet](https://github.com/RichardLitt/alternative-internet) - A collection of interesting new networks and tech aiming at decentralisation (in some form).
+- [awesome-fantasy](https://github.com/RichardLitt/awesome-fantasy) - :european_castle: Fantasy literature worth reading
+- [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) - 💡 A list of knowledge repositories
+- [aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose) - Docker compose files for Aria2+ AriaNg+ filerun/ Nextcloud/ h5ai + Plex.  图形化BT，磁力，离线下载，文件管理，播放，投屏
+- [spck-documentation](https://github.com/spckio/spck-documentation) - Documentation guide for Spck Editor
+- [gitprompt](https://github.com/hemker/gitprompt) - Shows git branch and status if folder is a repository. Handles linebreaks in bash better and does not override prompt in a second line.
+- [HashMiner](https://github.com/PlayLight/HashMiner) - An Advanced Crypto Miner for Android Devices
+- [Desktop](https://github.com/clipto-pro/Desktop) - Cross-platform Universal Clipboard & Notes
+- [awesome-blockchain](https://github.com/istinspring/awesome-blockchain) - Awesome projects and services based on blockchain technology
+- [github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) - A list of cool features of Git and GitHub.
 - [awesome-podcasts](https://github.com/rShetty/awesome-podcasts) - Collection of awesome podcasts
 - [awesome-security](https://github.com/sbilly/awesome-security) - A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
 - [awesome-developer-streams](https://github.com/bnb/awesome-developer-streams) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming
@@ -367,19 +533,20 @@
 - [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) - A list of awesome beginners-friendly projects.
 - [awesome-frontend](https://github.com/JingwenTian/awesome-frontend) - A curated list of amazingly awesome frontend libraries, resources and shiny things.
 - [Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) - A collection of various awesome lists for hackers, pentesters and security researchers
-- [Awesome](https://github.com/Awesome-Windows/Awesome) - :computer:  An awesome & curated list of best applications and tools for Windows.
+- [Awesome](https://github.com/Awesome-Windows/Awesome) - :computer: 🎉 An awesome & curated list of best applications and tools for Windows.
 - [awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
 - [backup-and-recovery-howtos](https://github.com/trapexit/backup-and-recovery-howtos) - Guides to setting up a media storage system, backing it up, and recovering from failures
 - [mutil](https://github.com/pkolano/mutil) - Multi-threaded cp and md5sum based on GNU coreutils
 - [awesome-stars](https://github.com/angristan/awesome-stars) - A curated list of my GitHub stars!
 - [advcpmv](https://github.com/jarun/advcpmv) - A patch for GNU Core Utilities cp, mv to add progress bars
+- [joinmarket](https://github.com/JoinMarket-Org/joinmarket) - CoinJoin implementation with incentive structure to convince people to take part
 - [android](https://github.com/omnirom/android) - 
 - [regolith-desktop](https://github.com/regolith-linux/regolith-desktop) - Meta package for the Regolith Desktop Environment
 - [awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy) - A list of GOG Galaxy 2.0 integrations and upcoming features
 - [awesome-AutoHotkey](https://github.com/Kavex/awesome-AutoHotkey) - A curated list of awesome AutoHotkey libraries, library distributions, scripts, tools and resources.
 - [Controller-Configs](https://github.com/Kavex/Controller-Configs) - :video_game: Controller profiles made for using with Steam
 - [games](https://github.com/leereilly/games) - :video_game: A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
-- [Android](https://github.com/clipto-pro/Android) - 
+- [Android](https://github.com/clipto-pro/Android) - Cross-platform Universal Clipboard & Notes
 - [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) - Docker Cheat Sheet
 - [Super-UEFIinSecureBoot-Disk](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk) - Super UEFIinSecureBoot Disk: Boot any OS or .efi file without disabling UEFI Secure Boot
 - [docker-radarr](https://github.com/hotio/docker-radarr) - Radarr docker image.
@@ -397,7 +564,7 @@
 - [Halo](https://github.com/Ampiflow/Halo) - Icons for Deepin
 - [V2Customizations](https://github.com/organizrTools/V2Customizations) - 
 - [funkwhale-docker-traefik](https://github.com/gregoryseibert/funkwhale-docker-traefik) - A collection of files for a funkwhale setup with docker and traefik reverse proxy (currently unmaintained and not up-to-date)
-- [AtoMiC-ToolKit-Docker](https://github.com/htpcBeginner/AtoMiC-ToolKit-Docker) - The hope is to make this the dockerized version of AtoMiC Toolkit for HTPC, HOME SERVER, and SMART HOME apps. More details here:
+- [AtoMiC-ToolKit-Docker](https://github.com/htpcBeginner/AtoMiC-ToolKit-Docker) - Moved - https://github.com/htpcBeginner/docker-traefik
 - [reverse-proxy](https://github.com/serdmanczyk/reverse-proxy) - Examplary docker-compose setup for Træfik with letsencrypt.org
 - [reverse-proxy](https://github.com/containerize-my-server/reverse-proxy) - Examplary docker-compose setup for Træfik with letsencrypt.org
 - [media-orchestra](https://github.com/martin-juul/media-orchestra) - Unleash your inner media composer in the cloud
@@ -418,7 +585,7 @@
 - [MagiskFiles](https://github.com/kantjer/MagiskFiles) - 
 - [awesome-home-media-center](https://github.com/tidusjar/awesome-home-media-center) - 📺 A curated list of awesome tools and software for your Home Media Center and TV bingeing!
 - [manifest](https://github.com/TeslaRom-N/manifest) - 
-- [conky_solar_burn](https://github.com/scar45/conky_solar_burn) - Conky theme with weather support and a spiffy layout.
+- [conky_synthwave_neon](https://github.com/scar45/conky_synthwave_neon) - Synthwave-inspired Conky theme with weather support and a spiffy layout.
 - [platform_manifest](https://github.com/TeamExodus/platform_manifest) - 
 - [local_manifests](https://github.com/nathanchance/local_manifests) - My personal local manifests
 - [android_manifest](https://github.com/DirtyUnicorns/android_manifest) - 
@@ -433,6 +600,7 @@
 
 ## PHP 
 
+- [docker-h5ai](https://github.com/awesometic/docker-h5ai) - Lightweight h5ai 0.29.2 container with Nginx 1.17 & PHP 7 based on Alpine Linux.
 - [Heimdall](https://github.com/linuxserver/Heimdall) - An Application dashboard and launcher
 - [XDA-Simulator](https://github.com/frap129/XDA-Simulator) - A Slack slash command to generate an XDA-esque post
 - [sentora-core](https://github.com/sentora/sentora-core) - Sentora is a web hosting control panel written in PHP for *NIX
@@ -440,7 +608,8 @@
 - [phpsysinfo](https://github.com/phpsysinfo/phpsysinfo) - phpSysInfo: a customizable PHP script that displays information about your system nicely
 - [KodExplorer](https://github.com/kalcaddle/KodExplorer) - A web based file manager,web IDE / browser based code editor
 - [files_external_gdrive](https://github.com/NastuzziSamy/files_external_gdrive) - [BETA - UNSTABLE] GDrive external storage for NextCloud
-- [Monitorr](https://github.com/Monitorr/Monitorr) - Self-hosted PHP-based web front platform that displays the status of any webapp or service in real time.
+- [Monitorr](https://github.com/Monitorr/Monitorr) - "Monitorr” is a self-hosted PHP web app that monitors the status of local and remote network services, websites, and applications.
+- [docker](https://github.com/phpmyadmin/docker) - Docker container for phpMyAdmin
 - [koel](https://github.com/phanan/koel) - 🐦 A personal music streaming server that works.
 - [AltisWebmin](https://github.com/Jarrrk/AltisWebmin) - Admin web panel for Altis Life on ArmA 3 - now deprecated
 - [spotweb](https://github.com/spotweb/spotweb) - Decentralized community
@@ -449,8 +618,13 @@
 - [ampache](https://github.com/ampache/ampache) - A web based audio/video streaming application and file manager allowing you to access your music & videos from anywhere, using almost any internet enabled device.
 - [nZEDb](https://github.com/nZEDb/nZEDb) - nZEDb - a fork of nnplus(2011) | NNTP / Usenet / Newsgroup indexer.
 
+## Pascal 
+
+- [goverlay](https://github.com/benjamimgois/goverlay) - GOverlay is an opensource project that aims to create a Graphical UI to help manage Linux overlays.
+
 ## Perl 
 
+- [smt-manager](https://github.com/damentz/smt-manager) - Simultaneous Multithreading (SMT) Manager - enable or disable hyperthreading cores, or display your current CPU topology.
 - [mesh](https://github.com/pkolano/mesh) - Single sign-on using SSH key pairs and fine-grained remote command authorization
 - [sshim](https://github.com/pkolano/sshim) - Allow remote ssh commands to survive connection failures
 - [basshfs](https://github.com/pkolano/basshfs) - Portable SSHFS-like functionality via bash without the need for FUSE
@@ -468,12 +642,37 @@
 
 ## PowerShell 
 
+- [Cloud-GPU-Updater](https://github.com/jamesstringerparsec/Cloud-GPU-Updater) - For updating P4000, P5000 and M60 GPU's
+- [NemosMiner](https://github.com/nemosminer/NemosMiner) - NemosMiner multi algo profit switching NVIDIA miner
+- [scoop-galaxy-integrations](https://github.com/borger/scoop-galaxy-integrations) - Provides an easy way to install, attach and update the GOG Galaxy 2 Integrations
+- [scoop-emulators](https://github.com/borger/scoop-emulators) - Provides an easy way to install and update the best emulators
 - [ChocolateyPackages](https://github.com/bcurran3/ChocolateyPackages) - My published Chocolatey packages
 
 ## Python 
 
+- [com.valvesoftware.Steam](https://github.com/flathub/com.valvesoftware.Steam) - 
+- [steam-tweaks](https://github.com/gamer-os/steam-tweaks) - Various tools for tweaking Steam/game settings
+- [steam-buddy](https://github.com/gamer-os/steam-buddy) - A web interface for managing Steam remotely
+- [AutoRclone](https://github.com/xyou365/AutoRclone) - AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts
+- [cloudplow](https://github.com/l3uddz/cloudplow) - Automatic rclone remote uploader, with support for multiple remote/folder pairings.  UnionFS Cleaner functionality: Deletion of UnionFS whiteout files  and their corresponding files on rclone remotes. Automatic remote syncer: Sync between different remotes via a Scaleway server instance, that is created and destroyed at every sync.
+- [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) - Automatic CPU speed & power optimizer for Linux
+- [nvidia-patch](https://github.com/keylase/nvidia-patch) - This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs.
+- [warp](https://github.com/linuxmint/warp) - Share files across the LAN
+- [ZenStates-Linux](https://github.com/r4m0n/ZenStates-Linux) - Dynamically edit AMD Ryzen processor P-States
+- [oversteer](https://github.com/berarma/oversteer) - Steering Wheel Manager for Linux
+- [protonfixes](https://github.com/simons-public/protonfixes) - A module for applying fixes at runtime to unsupported games with Steam Proton without changing game installation files
+- [protonfixes](https://github.com/GloriousEggroll/protonfixes) - A module for applying fixes at runtime to unsupported games with Steam Proton without changing game installation files
+- [joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver) - CoinJoin implementation with incentive structure to convince people to take part
+- [PlexGuide-Core](https://github.com/benderstwin/PlexGuide-Core) - Repo that enables users to customize personally or push core app fixes back to PlexGuide!
+- [cozy-coclyco](https://github.com/cozy/cozy-coclyco) - Tools to manage gozy instances
+- [azure-linux-extensions](https://github.com/Azure/azure-linux-extensions) - Linux Virtual Machine Extensions for Azure
+- [freqtrade](https://github.com/freqtrade/freqtrade) - Free, open source crypto trading bot
+- [crypto-signal](https://github.com/CryptoSignal/crypto-signal) - The #1 Automated Technical Analysis (TA) & Trading Bot for Bittrex, Binance, Coinbase, and more! (500+ coins)
+- [freqtrade-strategies](https://github.com/freqtrade/freqtrade-strategies) - Free trading strategies for Freqtrade bot
+- [nuxhash](https://github.com/YoRyan/nuxhash) - A NiceHash cryptocurrency mining client for Linux.
+- [Galaxy-Utils](https://github.com/tylerbrawl/Galaxy-Utils) - This repository contains some utilities that Galaxy 2.0 plugin developers may find useful.
 - [ubuntu-make](https://github.com/ubuntu/ubuntu-make) - Ubuntu Make
-- [bauh](https://github.com/vinifmor/bauh) - Graphical user interface to manage your Linux applications. It currently supports Flatpak, Snap, AppImage and AUR packages.
+- [bauh](https://github.com/vinifmor/bauh) - Graphical user interface for managing your Linux applications. Supports AppImage, AUR, Flatpak, Snap and native Web applications.
 - [sufs](https://github.com/karlicoss/sufs) - Merge multiple directories into one via symlinks
 - [pop](https://github.com/pop-os/pop) - A project for managing all Pop!_OS sources
 - [piper](https://github.com/libratbag/piper) - GTK application to configure gaming mice
@@ -481,8 +680,7 @@
 - [vorta](https://github.com/borgbase/vorta) - Desktop Backup Client for Borg
 - [emborg](https://github.com/KenKundert/emborg) - Interactive command line interface to Borg Backup
 - [lutris](https://github.com/lutris/lutris) - Lutris client - Open Source gaming platform for GNU/Linux
-- [joinmarket](https://github.com/JoinMarket-Org/joinmarket) - CoinJoin implementation with incentive structure to convince people to take part
-- [galaxy-integration-battlenet](https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet) - 
+- [galaxy-integration-battlenet](https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet) - :warning: This project is no longer maintained. Please use this repository https://github.com/FriendsOfGalaxy/galaxy-integration-blizzard
 - [galaxy-integrations-python-api](https://github.com/gogcom/galaxy-integrations-python-api) - NOTE: Please report here only issues related to the python API. Issues and general feedback regarding the Galaxy Client 2.0 shall be sent via Galaxy Client menu
 - [steamwatch](https://github.com/akeil/steamwatch) - Watch game prices in the Steam store
 - [sc-controller](https://github.com/kozec/sc-controller) - User-mode driver and GTK3 based GUI for Steam Controller
@@ -491,7 +689,7 @@
 - [Ulauncher](https://github.com/Ulauncher/Ulauncher) - Linux Application Launcher
 - [zfs-apt-snapshot](https://github.com/paxswill/zfs-apt-snapshot) - Small script for creating ZFS snapshots when upgrading packages through APT
 - [zedenv-grub](https://github.com/johnramsden/zedenv-grub) - zedenv plugin for GRUB
-- [zedenv](https://github.com/johnramsden/zedenv) - ZFS Boot Environment manager
+- [zedenv](https://github.com/johnramsden/zedenv) - ZFS Boot Environment manager (new development moved to zectl)
 - [hosts](https://github.com/StevenBlack/hosts) - Extending and consolidating hosts files from several well-curated sources like adaway.org, mvps.org, malwaredomainlist.com, someonewhocares.org, and potentially others.  You can optionally invoke extensions to block additional sites by category.
 - [ajenti](https://github.com/ajenti/ajenti) - Ajenti Core and stock plugins
 - [adb-enhanced](https://github.com/ashishb/adb-enhanced) - 🔪Swiss-army knife for Android testing and development 🔪 ⛺
@@ -555,7 +753,6 @@
 - [bbqlinux-python-switcher](https://github.com/bbqlinux/bbqlinux-python-switcher) - A simple qt based python switcher
 - [plugin.video.plexbmc](https://github.com/ccarpo/plugin.video.plexbmc) - PleXBMC for XBMC
 - [sabnzbd](https://github.com/sabnzbd/sabnzbd) - SABnzbd - The automated Usenet download tool
-- [skin.eminence](https://github.com/rZn/skin.eminence) - A skin for xbmc
 - [CouchPotatoServer](https://github.com/CouchPotato/CouchPotatoServer) - Automatic Movie Downloading via NZBs & Torrents
 - [repository.plexbmc.addons](https://github.com/hippojay/repository.plexbmc.addons) - Give XBMC that Plex look and feel
 - [plugin.video.plexbmc](https://github.com/hippojay/plugin.video.plexbmc) - PleXBMC for KODI
@@ -564,15 +761,21 @@
 
 ## QML 
 
+- [plasma-systray-latte-tweaks](https://github.com/psifidotos/plasma-systray-latte-tweaks) - Latte tweaks for Plasma systray
 - [monero-gui](https://github.com/monero-project/monero-gui) - Monero: the secure, private, untraceable cryptocurrency
 - [wownero-app](https://github.com/wownero/wownero-app) - Wownero App: graphical wallet
 
 ## Roff 
 
+- [MultiMiner](https://github.com/nwoolls/MultiMiner) - Graphical application for crypto-coin mining
 - [.files](https://github.com/rZn/.files) - dot files for my arch boxes
 
 ## Ruby 
 
+- [powerbar](https://github.com/busyloop/powerbar) - The last progressbar-library you'll ever need
+- [lolcat](https://github.com/busyloop/lolcat) - Rainbows and unicorns!
+- [cozy-debian-builder](https://github.com/aeris/cozy-debian-builder) - Docker environment to build Cozy Debian package
+- [github-gitlab-sync](https://github.com/IgnoredAmbience/github-gitlab-sync) - Continuous repository synchroniser between GitHub and GitLab
 - [openscripts](https://github.com/saveriomiroddi/openscripts) - (Some of) My personal scripts.
 - [fresh](https://github.com/freshshell/fresh) - Keep your dotfiles fresh.
 - [maximum-awesome](https://github.com/square/maximum-awesome) - Config files for vim and tmux.
@@ -583,6 +786,7 @@
 
 ## Rust 
 
+- [nano-work-server](https://github.com/nanocurrency/nano-work-server) - A dedicated work server for the Nano cryptocurrency
 - [diskus](https://github.com/sharkdp/diskus) - A minimal, fast alternative to 'du -sh'
 - [gcsf](https://github.com/harababurel/gcsf) - a FUSE file system based on Google Drive
 - [blockyarchive](https://github.com/darrenldl/blockyarchive) - Blocky archive - multithreaded archiver offering bit rot protection and sector level recoverability
@@ -592,6 +796,42 @@
 
 ## Shell 
 
+- [find-the-command](https://github.com/agura-lex/find-the-command) - Interactive command-not-found hook for bash and zsh, that uses pacman as a backend (BTW, this shit should be completely re-written as it's very ugly)
+- [junest](https://github.com/fsquillace/junest) - The lightweight Arch Linux based distro that runs upon any Linux distros without root access
+- [zbectl](https://github.com/Finic8/zbectl) - Utility for managing ZFS Bootenvironments in Arch Linux
+- [zarch](https://github.com/callmezatiel/zarch) - The Ultimate Script For Arch Linux
+- [restic-systemd-automatic-backup](https://github.com/erikw/restic-systemd-automatic-backup) - My restic backup solution using Backblaze B2 storage, systemd timers (or cron) and email notifications on failure.
+- [steamos-fg](https://github.com/alkazar/steamos-fg) - Workaround for some games that do not start in the foreground with the SteamOS compositor
+- [ProtonUpdater](https://github.com/flubberding/ProtonUpdater) - Script to make it easier to update Proton GE to the latest version
+- [frzr](https://github.com/gamer-os/frzr) - A deployment and automatic update mechanism for operating systems
+- [gamer-os](https://github.com/gamer-os/gamer-os) - A Steam Big Picture based couch gaming OS
+- [nextcloud-snap](https://github.com/nextcloud/nextcloud-snap) - ☁️📦 Nextcloud packaged as a snap
+- [crdroid_build](https://github.com/crdroidandroid/crdroid_build) - bash script to build crDroid (simple and with auto upload to FTP)
+- [Cross-Compiled-Binaries-Android](https://github.com/Zackptg5/Cross-Compiled-Binaries-Android) - A collection of static cross compiled binaries for android
+- [gog-galaxy-wine](https://github.com/diddlesnaps/gog-galaxy-wine) - 
+- [gpu-passthrough-tutorial](https://github.com/bryansteiner/gpu-passthrough-tutorial) - 
+- [wine-ge-custom](https://github.com/GloriousEggroll/wine-ge-custom) - My custom build of wine, made to use with lutris. Built with lutris's buildbot.
+- [steamos-ubuntu](https://github.com/ShadowApex/steamos-ubuntu) - Scripts to make an existing Ubuntu installation like SteamOS
+- [mf-install](https://github.com/z0z0z/mf-install) - Media Foundation workaround for Wine
+- [lspeed](https://github.com/Magisk-Modules-Grave/lspeed) - Universal and the most advanced Android tweaker
+- [lspeed_magisk](https://github.com/Paget96/lspeed_magisk) - L Speed
+- [hocker](https://github.com/infosiftr/hocker) - "Hacky shell scripts" legitimised
+- [dockerfiles](https://github.com/benderstwin/dockerfiles) - A semi-random collection of odds and ends.
+- [docktorrent](https://github.com/benderstwin/docktorrent) - Full-featured BitTorrent box run on Docker
+- [VPS-PLEX](https://github.com/benderstwin/VPS-PLEX) - 
+- [PLEXBOX-VPS](https://github.com/benderstwin/PLEXBOX-VPS) - Files and scripts used to set up a media server on a VPS
+- [benders-scripts](https://github.com/benderstwin/benders-scripts) - just some scripts I use
+- [docker-zenphoto](https://github.com/benderstwin/docker-zenphoto) - The popular picture gallery CMS for Docker.
+- [PlexGuide.com-The-Awesome-Plex-Server](https://github.com/benderstwin/PlexGuide.com-The-Awesome-Plex-Server) - PlexGuide.com ~ Deploy a multi-app supported Plex Server with an HD or GDrive (Unlimited Space) through UB16/18 & Debian - Ansible & Docker - /w PGBox, PGDrives & PGBlitz!
+- [PlexGuide-Community](https://github.com/benderstwin/PlexGuide-Community) - Repo that enables users to customize personally or push community app fixes back to PlexGuide!
+- [Portainer-Templates](https://github.com/benderstwin/Portainer-Templates) - stuff
+- [debian-cozy](https://github.com/cozy/debian-cozy) - Cozy Debian packaging
+- [AlibabaCloud-CentOS7-Pure-and-safe](https://github.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe) - Optimize and purify your Alibaba Cloud ECS instances.
+- [CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP](https://github.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP) - CentOS One-click Installation of Desktop Environment and Remote Desktop Connection RDP.
+- [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify) - It can reinstall CentOS, Debian, Ubuntu, Windows 2003, 7, 2008R2, 2012R2, 2016, 2019 and other systems (continuously added) via the Internet, and can install any system via mounting remote network ISO.
+- [standard-readme](https://github.com/RichardLitt/standard-readme) - A standard style for README files
+- [cloudmining](https://github.com/bvenkat2/cloudmining) - 
+- [automating_launches](https://github.com/azurecloudminingscript/automating_launches) - 
 - [hive-pooltemplates](https://github.com/minershive/hive-pooltemplates) - Pool templates available in Hive 2.0
 - [xmrig-autostart](https://github.com/hmallen/xmrig-autostart) - Automatically start a CPU and GPU xmrig-based Monero mining instances in detached screens when system is idle.
 - [zplug](https://github.com/zplug/zplug) - :hibiscus: A next-generation plugin manager for zsh
@@ -634,7 +874,6 @@
 - [fonts](https://github.com/powerline/fonts) - Patched fonts for Powerline users.
 - [clipmenu](https://github.com/cdown/clipmenu) - Clipboard management using dmenu
 - [nanorc](https://github.com/scopatz/nanorc) - Improved Nano Syntax Highlighting Files
-- [tmux-themepack](https://github.com/jimeh/tmux-themepack) - A pack of various Tmux themes.
 - [TermuxSSHDsetup](https://github.com/tomhiggins/TermuxSSHDsetup) - Scripts and notes for setting up and using SSHd on your Android device using Termux so that you can SSH, SFTP, and SSHFS to your Android
 - [suru-plus-aspromauros](https://github.com/gusbemacbe/suru-plus-aspromauros) - A Suru++-like monochromatic icons theme for users of dark environments
 - [suru-plus](https://github.com/gusbemacbe/suru-plus) - Suru++ 25 — A cyberpunk, elegant, futuristic and Papirus-like third-party icons theme
@@ -648,7 +887,7 @@
 - [docker-cloud-media-scripts](https://github.com/rZn/docker-cloud-media-scripts) - Upload and stream media from the cloud with or without encryption. Cache all new and recently streamed media locally to access quickly and reduce API calls
 - [cfcli](https://github.com/programmerq/cfcli) - Cloudflare CLI
 - [cloudflare-cli](https://github.com/bAndie91/cloudflare-cli) - CLI utility managing CloudFlare services using CloudFlare API
-- [SuperTransfer2](https://github.com/de0xy/SuperTransfer2) - Unlimited Gdrive upload rclone wrapper script written in Bash
+- [SuperTransfer2](https://github.com/deoxykev/SuperTransfer2) - Unlimited Gdrive upload rclone wrapper script written in Bash
 - [debian-aria2-kode](https://github.com/leafney/debian-aria2-kode) - Docker + debian + Aria2 + AriaNg + KodExplorer
 - [GSUITEv1](https://github.com/proelior/GSUITEv1) - Host your Plex media on Google Drive with rclone & rclone cache. These are the original scripts from FourFingerLifeHug with some added automation for syncing from seedbox.
 - [gentoo-overlay](https://github.com/devurandom/gentoo-overlay) - My personal Gentoo overlay
@@ -667,10 +906,10 @@
 - [rgon-proxy](https://github.com/CausticLab/rgon-proxy) - the base image of the rancher nginx-letsencrypt proxy
 - [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker.
 - [docker-spotweb](https://github.com/jgeusebroek/docker-spotweb) - A docker image running ubuntu/18.04 Linux and Spotweb
-- [arch-rtorrentvpn](https://github.com/binhex/arch-rtorrentvpn) - Docker build script for Arch Linux base with ruTorrent, rTorrent, Flood, Privoxy and OpenVPN
-- [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins & themes inspired by the various awesome list collections out there.
+- [arch-rtorrentvpn](https://github.com/binhex/arch-rtorrentvpn) - Docker build script for Arch Linux base with ruTorrent, rTorrent, autodl-irssi, Privoxy and OpenVPN
+- [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins, themes and tutorials.
 - [aui](https://github.com/helmuthdu/aui) - Archlinux Ultimate Install
-- [PGBlitz.com](https://github.com/PGBlitz/PGBlitz.com) - Welcome to https://PGBlitz.com ~ Rapidly deploy multiple-hasty Docker Containers through Ansible with local or Unlimited Google HD Space!
+- [PlexGuide.com](https://github.com/plexguide/PlexGuide.com) - Welcome to https://PlexGuide.com ~ Rapidly deploy multiple-hasty Docker Containers through Ansible with local or Unlimited Google HD Space!
 - [DockBox](https://github.com/QuickBox/DockBox) - Docker Based Quickbox
 - [arch-plexpass](https://github.com/binhex/arch-plexpass) - Docker build script for Arch Linux base with Plex Pass Media Server installed
 - [build_fwul](https://github.com/Carbon-Fusion/build_fwul) - NEW LOCATION *** NEW LOCATION !! https://code.binbash.it:8443/FWUL/build_fwul || .  .  .  .  .  .  .  .  .  .  . .     FWUL -  the most reliable adb/fastboot live system ever - to manage ANY Android without driver hassle
@@ -706,7 +945,7 @@
 - [prezto](https://github.com/sorin-ionescu/prezto) - The configuration framework for Zsh
 - [arch-deepin](https://github.com/martyr-deepin/arch-deepin) - Building Deepin Software on ArchLinux. This project is no longer being actively developed, please report issues to https://github.com/linuxdeepin/developer-center/issues instead
 - [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - Tools and instructions on how to have awesome symbols in a terminal with a monospace font
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃 A delightful community-driven (with nearly 1,500 contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃 A delightful community-driven (with 1500+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 - [dotfiles](https://github.com/thoughtbot/dotfiles) - A set of vim, zsh, git, and tmux configuration files.
 - [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated git prompt for bash and zsh
 - [ArchiDroid](https://github.com/ArchiDroid/ArchiDroid) - ArchiDroid's main repo
@@ -716,21 +955,27 @@
 
 - [treble_experimentations](https://github.com/phhusson/treble_experimentations) - Notes about tinkering with Android Project Treble
 
-## TSQL 
-
-- [docker](https://github.com/phpmyadmin/docker) - Docker container for phpMyAdmin
-
 ## TypeScript 
 
+- [node-gdrive](https://github.com/d0whc3r/node-gdrive) - Google drive api for node made easy with typescript
+- [aria-telegram-mirror-bot](https://github.com/out386/aria-telegram-mirror-bot) - A Telegram bot to download files via HTTP(S)/BitTorrent and upload them to Google Drive
 - [Vortex](https://github.com/Nexus-Mods/Vortex) - Vortex Development
 - [terminus](https://github.com/Eugeny/terminus) - A terminal for a more modern age
+- [nativefier](https://github.com/jiahaog/nativefier) - Make any web page a desktop application
+- [tagspaces](https://github.com/tagspaces/tagspaces) - TagSpaces is an offline, open source, document manager with tagging support
 
 ## Vala 
 
+- [fondo](https://github.com/calo001/fondo) - 📷 Wallpaper App for Linux
 - [greeter](https://github.com/elementary/greeter) - LightDM Greeter for Pantheon
 - [GameHub](https://github.com/tkashkin/GameHub) - All your games in one place
 - [repositories-manager](https://github.com/bartzaalberg/repositories-manager) - Manage your repositories
 - [timeshift](https://github.com/teejee2008/timeshift) - System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
+
+## Vim script 
+
+- [dotfiles](https://github.com/mresvanis/dotfiles) - {macos,debian} dev env gist
+- [dotfiles](https://github.com/paulirish/dotfiles) - paul's shell, git, etc config files. also homebrew, migration setup. good stuff.
 
 ## VimL 
 
@@ -738,6 +983,10 @@
 
 ## Vue 
 
+- [ASF-ui](https://github.com/JustArchiNET/ASF-ui) - Standalone web interface for ASF
+- [media-manager](https://github.com/Anu1601CS/media-manager) - :cloud: A cloud based media manager to manage media files integrated with Dropbox, Google Drive etc.
+- [drive](https://github.com/lazyDrive/drive) - :cloud: A distributed cloud based lazy drive to files integrated with Dropbox, Google Drive.
+- [OWallet](https://github.com/ontio/OWallet) - OWallet - a comprehensive Ontology desktop wallet
 - [Wownero-Light-Wallet](https://github.com/wownero/Wownero-Light-Wallet) - "I can fit so much mining dust in here"
 - [synclounge](https://github.com/samcm/synclounge) - Enjoy Plex with your friends. In Sync. Together.
 
